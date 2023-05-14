@@ -2,7 +2,7 @@ import telebot
 import requests
 import json
 
-bot = telebot.TeleBot('6247624163:AAGhzwTiGDdFdT4koigmlou9NJpfBjlj9Cw')
+bot = telebot.TeleBot('')
 
 
 def use_api_chatgpt(mes):
