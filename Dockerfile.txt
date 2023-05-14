@@ -1,0 +1,11 @@
+FROM python:3.10
+# set work directory
+WORKDIR /usr/src/app/
+# copy project
+COPY . /usr/src/app/
+# install dependencies
+RUN pip install --user aiogram
+# run app
+CMD ["python", "bot.py"]
+
+At the moment, I would like to explore the general capabilities of GPT-4 and further use it as an assistant for image-based statistical data analysis. Also, based on GPT-4, I want to try to develop a "filter" for visually impaired people, which will sound the contents of the image.
