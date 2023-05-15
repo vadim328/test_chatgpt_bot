@@ -1,6 +1,5 @@
 import telebot
 import requests
-import json
 
 bot = telebot.TeleBot('')
 
@@ -8,7 +7,7 @@ bot = telebot.TeleBot('')
 def use_api_chatgpt(mes):
     headers = {
         'Content-Type': 'application/json',
-        'Authorization': 'Bearer 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',
+        'Authorization': '',
     }
 
     json_data = {
